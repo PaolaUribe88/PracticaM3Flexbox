@@ -1,0 +1,215 @@
+body{
+    background-color: beige;
+}
+.cabecera{
+  background-image: linear-gradient(90deg,#f071f3 100%, #5a0c4d 0%);
+  justify-content: center;
+}
+.botonChat{
+  background-image: linear-gradient(90deg, #78f1f1 0%, #FC00FF 100%);
+  text-align: left;
+  
+}
+.principal{
+  display:flex;
+  flex-direction:  row;
+  justify-content: space-between;
+
+} 
+  .izContenedor {
+    background-image: linear-gradient(90deg,#ee68d8 0%, #4a044b 100%);
+    width: 40%;
+    font-size: 45px;
+    margin-left:15%;
+    margin-top: 5%;
+    border: 2px solid #420443;
+    border-radius: 1%;
+    
+  }
+  .izContenedorChat {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(90deg,#ee68d8 0%, #330234 100%);
+    padding: 7px;
+
+}
+.izContenedorDatos{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 1px;
+    border-bottom: 1px black solid;
+  
+    
+}
+.nomChat{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 7px;
+  font-size: 30px;
+  color:blue;
+}
+.fechaChat{
+  color: grey;
+  font-size: 12px;
+  font-weight: bolder
+}
+.imgChat{
+  width: 20%;
+  border-radius: 25%;
+}
+.contenedorImagenesTitulo{
+  width: 20%;
+}
+.contenedorImagenesConversacion{
+  width: 10%;
+}
+ 
+  .drContenedor {
+    background-image: linear-gradient(90deg,#ee68d8 0%, #420243 100%);
+    width: 70%;
+    border-radius: 1%;
+    text-align: left;
+    line-height: 75px;
+    font-size: 30px;
+    border: 2px solid #420443;
+    margin-right:15%;
+    margin-top:5%;
+
+  }
+  .entradaChat{
+    background-image: linear-gradient(90deg,#ee68d8 0%, #3c043d 100%);
+    padding-top: 2%;
+    text-align: left;
+    line-height: 75px;
+    font-size: 30px;
+
+  }
+  .salidaChat{
+    background-image: linear-gradient(90deg,#ee68d8 0%, #FC00FF 100%);
+    text-align: right;
+    line-height: 75px;
+    font-size: 30px;
+    padding-top: 2%;
+  }
+  .imgTitulo{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    padding-top: 2%;
+
+  }
+  .img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    padding-top: 2%;
+}
+  .contenedorImgConversacion{
+    width: 10%;
+  }
+  .imgConversacion{
+    width: 99%;
+    border-radius: 100%;
+    padding-top: 2%;
+  }
+
+.imgChat{
+  width: 60%;
+}
+
+.tituloChat{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 7px;
+  color: white;
+}
+
+.chatGeneral{
+  display: flex;
+  flex-direction:column;
+  padding: 7px;
+
+}
+.contenidoChat{
+  padding: 7px;
+  
+}
+.entradaChat{
+  display: flex;
+  padding: 7px;
+}
+
+.salidaChat{
+  display: flex;
+  padding: 7px;
+  flex-direction: row-reverse;
+}
+
+.textoConversacionEntrada{
+  font-size: 16px;
+  color: white;
+  background-color: #330234;
+  border-radius: 10%;
+}
+.textoConversacionSalida{
+  font-size: 16px;
+  color: white;
+  background-color: rgb(53, 53, 186);
+  border-radius: 10%;
+}
+
+.horaConversacion{
+  color: blue;
+  font-size: 12px;
+  font-weight: bolder;
+}
+/* @media (max-width: 500px) {
+  .principal {
+    flex-direction: column;
+  }
+  .izContenedorChat {
+    flex-direction: column;
+  }
+} */
+.mifooter {
+  border: 5px solid blueviolet;
+  background-image: linear-gradient(90deg, #482645 0%, #FC00FF 100%);
+}
+
+.mifooter__eltextoreservado {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+}
+@media only screen and (max-width: 576px) {
+  .cabecera__boton {
+    display: block;
+    position: relative;
+    left: 65%;
+  }
+  .cabecera__contenedorLista {
+    display: none;
+  }
+  .cabecera__lista__ {
+    display: block;
+  }
+  .nomChat{
+    display: none;
+  }
+  .fechaChat{
+    display: none;
+  }
+  .izContenedorChat{
+    width: 100%;
+    display: none;
+  }
+
+}
+@media only screen and (min-width: 768px) {
+  .cabecera__lista__ {
+    display: block;
+  }
+
+}

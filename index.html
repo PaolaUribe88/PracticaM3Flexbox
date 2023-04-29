@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Chat</title>
+</head>
+<body>
+      <!--NAV-->
+  <header class="cabecera">
+    <button class="cabecera__boton" onclick="mostrarMenuPagina()">Mostrar Menu</button>
+      <div class="cabecera__contenedorLista">
+          <ul class="cabecera__lista">
+                  
+              <li><a class="cabecera__lista__elemento" href="preguntasFrecuentes.html">Preguntas Frecuentes |</a></li>
+              <li><a class="cabecera__lista__elemento" href="manualesTutoriales.html">Manuales y Tutoriales |</a></li>
+              <li><a class="cabecera__lista__elemento" href="noticias.html">Noticias |</a></li>
+              <li><a class="cabecera__lista__elemento" href="calendario.html">Calendario |</a></li>
+              <li><a class="cabecera__lista__elemento" href="administracion.html">Admin Usuarios |</a></li>
+              <li><a class="cabecera__lista__elemento" href="organigrama.html">Nuestra Empresa |</a></li>
+              <li><a class="cabecera__lista__elemento" href="chat.html">Chat |</a></li>
+                 
+          </ul>
+      </div>
+  </header>
+    <main class="principal">
+        <aside class="izContenedor"> 
+            <input class="flex" type="text" id="txtbusqueda" name="txtbusqueda" size="11">
+            <input class="botonChat" type="button" value="Chats" onclick="mostrarChats()">
+                <hr>
+            <div class="izContenedorChat"><!--Div izContenedorChast-->
+
+                <div class="izContenedorDatos">
+                    <div class="imgChat">
+                        <img class="img" src="assets/img/1.jpeg">
+                    </div>
+                    <div class="nomChat">Amor</div>
+                    <div class="fechaChat" >fecha</div>
+                </div>   
+                
+
+                <div class="izContenedorDatos">
+                    <div class="imgChat">
+                        <img class="img" src="assets/img/2.png">
+                    </div>
+                    <div class="nomChat">Jefe</div>
+                    <div class="fechaChat">fecha</div>
+                </div>
+                
+
+                <div class="izContenedorDatos">
+                    <div class="imgChat">
+                        <img class="img" src="assets/img/3.jpeg">
+                    </div>
+                    <div class="nomChat">Cristi</div>
+                    <div class="fechaChat">fecha</div>
+                </div>
+                
+
+                <div class="izContenedorDatos">
+                    <div class="imgChat">
+                        <img class="img" src="assets/img/4.png">
+                    </div>
+                    <div class="nomChat">Pablo</div>
+                    <div class="fechaChat">fecha</div>
+                </div>
+                
+
+                <div class="izContenedorDatos">
+                    <div class="imgChat">
+                        <img class="img" src="assets/img/5.jpeg">
+                    </div>
+                    <div class="nomChat">Don Anibal</div>
+                    <div class="fechaChat">fecha</div>
+                </div>
+            </div><!--Div izContenedorChast-->
+        </aside>
+
+        <section class="drContenedor">
+            <div class="tituloChat">
+                <div class="contenedorImagenesTitulo">
+                    <img class="imgTitulo" src="assets/img/1.jpeg"> 
+                </div>
+                <div>
+                    <p >Amor</p>
+                </div>
+            </div>
+            <hr>
+
+            <article id="chatGeneral"> 
+                <div class="contenidoChat">
+
+                    <div class="entradaChat">
+                        <div class="contenedorImgConversacion">
+                            <img class="imgConversacion" src="assets/img/1.jpeg" alt="amor">
+                        </div>
+                        <div><p class="textoConversacionEntrada">Hola Amor como estas</p></div>
+                        <div><p class="horaConversacion">8:50pm</p></div>
+                    </div>
+
+                    <div class="salidaChat">
+                        <div class="contenedorImgConversacion">
+                            <img class="imgConversacion" src="assets/img/o.jpeg" alt="amor">
+                        </div>
+                        <div><p class="textoConversacionSalida">Hola Amor bien y tu?</p></div>
+                        <div><p class="horaConversacion">8:51pm</p></div>
+                    </div>
+
+                    <div class="entradaChat">
+                        <div class="contenedorImgConversacion">
+                            <img class="imgConversacion" src="assets/img/1.jpeg" alt="amor">
+                        </div>
+                        <div><p class="textoConversacionEntrada">Bien...aqui en el centro</p></div>
+                        <div><p class="horaConversacion">8:30pm</p></div>
+                    </div>
+
+                    <div class="salidaChat">
+                        <div class="contenedorImgConversacion">
+                            <img class="imgConversacion" src="assets/img/o.jpeg" alt="amor">
+                        </div>  
+                        <div><p class="textoConversacionSalida">Que bueno andas pagando?</p></div>
+                        <div><p class="horaConversacion">8:31pm</p></div>
+                    </div>
+                    <div class="entradaChat">
+                        <div class="contenedorImgConversacion">
+                            <img class="imgConversacion" src="assets/img/1.jpeg" alt="amor">
+                        </div>
+                        <div><p class="textoConversacionEntrada">si, hay una fila enorme </p></div>
+                        <div><p class="horaConversacion">8:33pm</p></div>
+                    </div>
+                    <div class="salidaChat">
+                        <div class="contenedorImgConversacion">
+                            <img class="imgConversacion" src="assets/img/o.jpeg" alt="amor">
+                        </div>
+                        <div><p class="textoConversacionSalida">chita, nada que hacer</p></div>
+                        <div><p class="horaConversacion">8:33pm</p></div>
+                    </div>
+                    <div class="salidaChat">
+                        <div class="contenedorImgConversacion">
+                            <img class="imgConversacion" src="assets/img/o.jpeg" alt="amor">
+                        </div>
+                        <div><p class="textoConversacionSalida">armarse de paciencia</p></div>
+                        <div><p class="horaConversacion">8:34pm</p></div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        
+    </main><br><br>
+    <script src="assets/js/script.js"></script>
+    <footer id="mi_footer" class="mifooter">
+        <b> <p class="mifooter__eltextoreservado" align="center">TODOS LOS DERECHOS RESERVADOS ® J.U.</p> <!--&#174 codigo acci--> </b>    
+     </footer>
+ 
+</body>
+
+</html>
